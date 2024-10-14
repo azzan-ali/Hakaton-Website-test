@@ -1,0 +1,732 @@
+@font-face {
+    font-family: "extraLight";
+    src: url(./font/Glancyr-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "ExtraLightItalic";
+    src: url(./font/Glancyr-ExtraLightItalic.otf);
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(./font/Glancyr-Light.otf);
+}
+
+@font-face {
+    font-family: "LightItalic ";
+    src: url(./font/Glancyr-LightItalic.otf);
+}
+
+@font-face {
+    font-family: "Thin";
+    src: url(./font/Glancyr-Thin.otf);
+}
+
+@font-face {
+    font-family: "ThinItalic";
+    src: url(./font/Glancyr-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(./font/Glancyr-Medium.otf);
+}
+
+@font-face {
+    font-family: "MediumItalic";
+    src: url(./font/Glancyr-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url(./font/Glancyr-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "SemiBoldItalic";
+    src: url(./font/Glancyr-SemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(./font/Glancyr-Regular.otf);
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(./font/Glancyr-Bold.otf);
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(./font/Glancyr-BoldItalic.otf);
+}
+
+body {
+    color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 77px;
+    margin-top: 20px;
+}
+
+.anchor {
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    margin-left: 17px;
+    margin-top: 10px;
+    font-family: "ExtraLight";
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "Extralight";
+    margin-top: 20px;
+}
+
+.logo {
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.table {
+    position: relative;
+    right: 10px;
+}
+
+.btn-1 {
+    width: 149px;
+    margin-left: 20px;
+    background: #D4FF00;
+    border: none;
+    height: 33px;
+    font-family: "Medium";
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+.line {
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+
+.icon {
+    margin-top: 60px;
+    margin-left: 69px;
+    font-size: 30px;
+}
+
+.font {
+    font-family: "Light";
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "SemiBold";
+}
+
+.lorem {
+    font-size: 16px;
+    margin-top: 24px;
+    font-family: "Extralight";
+}
+
+.input {
+    font-family: "Extralight";
+    font-size: 18px;
+}
+
+.banana {
+    margin-top: 20px;
+}
+
+.input-10 {
+    font-size: 18px;
+    font-family: "Extralight";
+}
+
+.speed {
+    margin-left: 20px;
+}
+
+.azan {
+    font-size: 17px;
+    font-family: "Extralight";
+
+}
+
+.azzan {
+    margin-left: 10px;
+    font-family: "Extralight";
+    margin-top: 0px;
+}
+
+.azan-10 {
+    width: 287px;
+    align-items: center;
+    display: flex;
+    height: 349px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.mango {
+    display: flex;
+}
+
+.all {
+    display: flex;
+}
+
+.facebook {
+    height: 346px;
+    margin-top: 33px;
+    margin-left: 2px;
+
+}
+
+.youtube {
+    height: 346px;
+    margin-top: 33px;
+    margin-left: 4px;
+}
+
+
+.speed {
+    position: relative;
+    top: 4px;
+
+}
+
+.btn-2 {
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    width: 179px;
+    height: 37px;
+    background: #D4FF00;
+    font-family: "SemiBold";
+    margin-top: 20px;
+}
+
+.robaish {
+    position: relative;
+    top: 100px;
+    color: #B8B8B8;
+    font-family: "Extralight";
+    font-size: 20px;
+}
+
+.Affiliate {
+    background: #070707;
+    height: 230px;
+    position: relative;
+    top: 40px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.login-10 {
+    padding-top: 20px;
+    padding-left: 430px;
+    font-size: 19px;
+    font-family: "Extralight";
+    color: #B8B8B8;
+
+}
+
+.main {
+    margin-top: 30px;
+    margin-left: 260px;
+    width: 180px;
+
+}
+
+.box {
+    width: 90px;
+    position: relative;
+    top: 19px;
+    left: 2px;
+
+}
+
+.picture {
+    width: 149px;
+
+}
+
+.img-10 {
+    width: 110px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+
+}
+
+.place {
+    font-family: "extraLight";
+    color: #575757;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+.para-10 {
+    color: black;
+    margin-top: 40px;
+    margin-left: 410px;
+    font-size: 24px;
+}
+.para-10{
+    position: relative;
+    top: 16px;
+}
+.experience {
+    color: black;
+    font-size: 44px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: "extraLight";
+}
+
+.number {
+    color: #070707;
+    border-radius: 50%;
+    background-color: #D4FF00;
+width: 30px;
+height: 30px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 10px;
+}
+.counting{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 28px;
+}
+.number-10{
+    color: #070707;
+    border-radius: 50%;
+background: #D9D9D9;
+width: 30px;
+height: 30px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 10px; 
+font-size: 20px;
+font-family: "extraLight";
+}
+.education{
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 33px;
+}
+.edu{
+    color: #070707;
+    font-size:  43px;
+    margin-left: 33px;
+    margin-top: 29px;
+    display: flex;
+    font-family: "Light";
+}
+.meadia{
+    color: #000000;
+
+    font-family: "extraLight";  
+    margin-left: 37px;
+    margin-top: 27px;
+}
+.img-container{
+    display: flex;
+}
+.close{
+    display: flex;
+}
+.mask{
+    width: 240px;
+    height: 144px;
+    margin-left: 20px;
+
+}
+.read{
+    background: #D4FF00;
+ width: 179px;
+ height: 140px;
+ position: relative;
+left: 20px;
+color:  black;
+}
+.line{
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+    font-family: "extraLight"; 
+}
+.color{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pri{
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+}
+.class{
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 149px;
+}
+.roboto{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: column;
+}
+.azzan-90{
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 14px;
+    height: 149px;
+}
+.second{
+    width: 280px;
+    height: 137px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.lamon{
+    background: #D4FF00;
+    width: 179px;
+    height: 137px;
+    position: relative;
+    top: 10px;
+   left: 10px;
+   color:  black;
+
+   
+}
+.dala{
+    display: flex;
+}
+.poppins{
+    display: flex;
+}
+.wen{
+    width: 140px;
+    height: 137px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.copy{
+    width: 349px;
+    margin-top: 90px;
+    margin-left: 49px;
+}
+.aghaaz{
+    color: #000000;
+    font-size: 24px;
+    font-family: "extraLight"; 
+    position: relative;
+    right: 110px;
+    bottom: 27px;
+   
+}
+.time{
+    display: flex;
+}
+.learn{
+    display: flex;
+    align-items: center;
+}
+.apna{
+    background: #EDEDED;
+    height: 1800px;
+    
+}
+.counting-10{
+    display: flex;
+    margin-bottom: 210px;
+    margin-left: 80px;
+}
+.v{
+    color: #070707;
+    border-radius: 50%;
+    background: #D9D9D9;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px; 
+    font-size: 20px;
+    font-family: "extraLight"; 
+    font-family: "SemiBold"; 
+    font-size: 18px;
+}
+.v-10{
+    color: #070707;
+    border-radius: 50%;
+    background-color: #D4FF00;
+width: 30px;
+height: 30px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 10px;  
+font-family: "SemiBold"; 
+font-size: 18px;
+}
+.mera-10{
+    display: flex;
+    margin-top: 260px;  
+    color: #000000;
+position: relative;
+right: 299px;
+bottom: 40px;
+}
+.mera{
+    display: flex;
+}
+.mera-10{
+    font-size: 40px;
+}
+.eduacity{
+    font-size: 14px;
+align-items: center;
+display: flex;
+position: relative;
+bottom: 34px;
+margin-left: 491px;
+
+color: #000000;
+
+    font-family: "extraLight"; 
+}
+.counting-90{
+    display: flex;
+margin-top: 30px;
+       margin-left: 80px;
+}
+.roman{
+    color: #070707;
+    border-radius: 50%;
+    background: #D9D9D9;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px; 
+    font-size: 20px;
+   font-family: "extraLight"; 
+   font-family: "SemiBold"; 
+    font-size: 18px; 
+}
+.roman-10{
+    color: #070707;
+    border-radius: 50%;
+    background-color: #D4FF00;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;  
+    font-family: "SemiBold"; 
+    font-size: 18px;
+}
+.data{
+   color: #000000;
+   font-size: 20px;
+   font-family: "extraLight";
+   margin-top: 60px;
+   margin-left: 90px;
+}
+.bulid{
+    color: #000000;
+    margin-left: 90px;
+    margin-top: 27px;
+    font-family: "SemiBold"; 
+    font-size: 37px ;
+}
+.developent{
+    color: #000000;
+    font-family: "extraLight"; 
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.test{
+    width: 420px;
+    display: flex;
+    position: relative;
+    bottom: 240px;
+    left: 90px;
+}
+.footer-0{
+    display:flex;
+}
+.certificate{
+  background: #FFFFFF;
+  border-radius: 7px;
+  width: 731px;
+  height: 220px;
+  margin-left: 180px;
+  position: relative;
+  bottom: 100px;
+}
+.education-certificate{
+    background-color: #000000;
+    height: 740px;
+    display: flex;
+}
+.stand{
+    color: #000000;
+    font-size: 34px;
+    font-family: "extraLight"; 
+  position: relative;
+  bottom: 63px;
+padding-left: 30px;
+}
+.green{
+    background-color: #D4FF00;
+    width: 140px;
+    height: 140px;
+    position: relative;
+bottom: 72px;
+left: 40px;
+border-radius: 70px;
+}
+.ghitub{
+   width: 44px;
+   padding-top: 40px;
+margin-left: 49px;
+}
+.out{
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    bottom: 49px;
+    left: 34px;
+    font-family: "extraLight"; 
+}
+.name{
+    width: 220px;
+    position: relative;
+    bottom: 210px;
+    left: 480px;
+}
+.css{
+    font-size: 23px;
+    position: relative;
+    bottom: 140px;
+}
+.card{
+    font-family: "extraLight"; 
+    position: relative;
+    bottom: 120px;
+    font-size: 18px;
+}
+.flex{
+    position: relative;
+    bottom: 210px;
+    margin-left: 240px;
+    font-size: 30px;
+}
+.tech{
+    position: relative;
+    bottom: 193px;
+    margin-left: 244px;
+    font-family: "extraLight"; 
+}
+.wafa{
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+.cow{
+    margin-left: 190px;
+    position: relative;
+    bottom: 86px;
+}
+.apple{
+    margin-top: 6px;
+}
+.student{
+    margin-top: 8px;
+}
+.car-90{
+    background-color: white;
+    width: 499px;
+    height: 60px;
+  margin-top: 100px;
+  position: relative;
+  right: 340px;
+ 
+  border-radius: 80px;
+  align-items: center;
+  justify-content: center;
+
+}
+.kashan{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+.hackton-10{
+color: #000000;
+position: relative;
+bottom: 20px;
+    font-size: 21px;
+    padding-left: 40px
+ 
+}
+.hackton{
+   font-size: 21px;
+   color: white;
+   background-color: #070707;
+   width: 100px;
+   height: 40px;
+   position: relative;
+   bottom: 29px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   font-family: "extraLight"; 
+}
